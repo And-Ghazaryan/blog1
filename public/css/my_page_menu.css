@@ -1,0 +1,155 @@
+.control-panel-box {
+    height: 110px;
+    padding-top: 11px;
+}
+
+.control-panel-left-box {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.control-panel-right-box {
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 5px;
+}
+
+.control-panel-left {
+    width: auto;
+    height: auto;
+    border: solid #e5861b 1px;
+    float: left;
+    margin-left: 11px;
+    border-radius: 4px;
+    color: white;
+    padding: 11px 11px;
+    cursor: pointer;
+}
+
+.control-panel-left:hover {
+    background: #ff980038;
+}
+
+.control-panel-right:hover {
+    background: #ff980038;
+}
+
+.control-panel-right {
+    width: auto;
+    height: auto;
+    border: solid #e5861b 1px;
+    float: right;
+    margin-right: 11px;
+    border-radius: 4px;
+    color: white;
+    padding: 3px 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.my_page_span {
+    width: 50px;
+    height: 50px;
+    background: #e5861b;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 100%;
+}
+
+.my_page_span svg {
+    padding-top: 11px;
+}
+
+.my_page_h5 {
+    color: #e5861b;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+    .control-panel-left h5 {
+        display: none;
+    }
+
+    .control-panel-left {
+        padding: 7px 7px;
+    }
+
+    .control-panel-right h5 {
+        display: none;
+    }
+
+    .my_page_span {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .email-span {
+        display: none;
+    }
+
+    .control-panel-box {
+        height: 77px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .control-panel-left h5 {
+        display: none;
+    }
+
+    .control-panel-left {
+        padding: 7px 7px;
+    }
+
+    .control-panel-right h5 {
+        display: none;
+    }
+
+    .my_page_span {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .email-span {
+        display: none;
+    }
+
+    .control-panel-box {
+        height: 77px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .control-panel-left h5 {
+        display: none;
+    }
+
+    .control-panel-left {
+        padding: 7px 7px;
+    }
+
+    .control-panel-right h5 {
+        display: none;
+    }
+
+    .my_page_span {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .email-span {
+        display: none;
+    }
+
+    .control-panel-box {
+        height: 77px;
+    }
+}

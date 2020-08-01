@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    height: 52px;
+    background: #000;
+    float: left;
+    /* margin-top:20px; */
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-box {
+    width: 1200px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    width: auto;
+    height: auto;
+    /* border:solid; */
+    margin-top: 11px;
+}
+
+.footer-text-right {
+    float: right;
+    margin-right: 11px;
+}
+
+.footer-text-left {
+    float: left;
+    font-size: 14px;
+}
+
+.footer-text a,
+p {
+    color: white;
+}
+
+.footer-text a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer-box {
+        width: 950px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .footer-box {
+        width: 750x;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-box {
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .footer-box {
+        width: 710px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .footer-box {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    .footer-box {
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .footer-box {
+        width: 610px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .footer-box {
+        width: 385px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer-box {
+        width: 365px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .footer-box {
+        width: 330px;
+    }
+}

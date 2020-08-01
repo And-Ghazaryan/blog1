@@ -1,0 +1,212 @@
+.my_page {
+    width: 1200px;
+    height: 100%;
+    margin: 61px auto;
+    background: black;
+    border-radius: 8px;
+}
+
+.aa {
+    width: 98%;
+    height: 159px;
+    margin: 11px auto;
+    border-radius: 4px;
+    border: solid 1px #e5861b;
+}
+
+.del {
+    color: red;
+}
+
+.edit {
+    color: #e5861b;
+}
+
+.ee {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 13px 13px;
+    color: #e5861b;
+}
+
+.ee img {
+    width: 200px;
+    height: 132px;
+}
+
+.ee-text {
+    width: 55%;
+    overflow: hidden;
+}
+
+.ee-right {
+    float: right;
+}
+
+.ee-right div {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    padding: 6px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.ee-text p {
+    font-size: 14px;
+    color: #eee;
+    margin-top: 11px;
+}
+
+.aa-default {
+    border: none;
+}
+
+.aa-default p {
+    text-align: center;
+    font-size: 17px;
+    color: #e5861b;
+    padding-top: 17px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .my_page {
+        width: 950px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .my_page {
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .my_page {
+        width: 710px;
+        height: auto;
+    }
+
+    .ee-img img {
+        width: 200px;
+        height: 133px;
+    }
+
+    .aa {
+        height: 160x;
+    }
+
+    .ee-text h5 {
+        height: 37px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .my_page {
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .my_page {
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .my_page {
+        width: 385px;
+    }
+
+    .ee img {
+        width: 80px;
+        height: 53px;
+    }
+
+    .aa {
+        height: 100px;
+    }
+
+    .ee-text {
+        width: 57%;
+        height: 37px;
+    }
+
+    .ee-text h5 {
+        overflow: hidden;
+        font-size: 14px;
+    }
+
+    .ee-right div {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .my_page {
+        width: 330px !important;
+        height: auto;
+    }
+
+    .ee img {
+        width: 80px;
+        height: 53px;
+    }
+
+    .aa {
+        height: 100px;
+    }
+
+    .ee-text {
+        width: 57%;
+        height: 37px;
+    }
+
+    .ee-text h5 {
+        overflow: hidden;
+        font-size: 14px;
+    }
+
+    .ee-right div {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .my_page {
+        width: 330px !important;
+        height: auto;
+    }
+
+    .ee img {
+        width: 80px;
+        height: 53px;
+    }
+
+    .aa {
+        height: 100px;
+    }
+
+    .ee-text {
+        width: 50%;
+        height: 37px;
+    }
+
+    .ee-text h5 {
+        overflow: hidden;
+        font-size: 14px;
+    }
+
+    .ee-right div {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,375 @@
+.add-page {
+    width: 1200px;
+    height: auto;
+    margin: 61px auto;
+    display: flex;
+}
+
+.add_content {
+    width: 1200px;
+    border-radius: 4px;
+}
+
+.e {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.add_content input::-webkit-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#edit_file {
+    display: none;
+}
+
+.add_content textarea::-webkit-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.page {
+    width: 97%;
+    height: auto;
+    border: solid white;
+}
+
+.add_header_box {
+    width: 100%;
+    height: 50px;
+}
+
+.add_header p {
+    display: block;
+    padding: 11px;
+}
+
+.add_header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.add_box {
+    width: 97%;
+    height: auto;
+    border-bottom: dotted #ccc;
+    float: left;
+    margin-top: 7px;
+    padding: 11px;
+}
+
+.a {
+    width: 200px;
+    color: #e5861b;
+    float: left;
+}
+
+.input_box {
+    width: 81%;
+    margin-left: 11px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.textarea_box {
+    width: 77%;
+    height: 150px;
+}
+
+.input_box input {
+    width: 100%;
+    height: 100%;
+    text-indent: 11px;
+    border: none;
+    border-radius: 4px;
+}
+
+.img_box {
+    height: auto;
+}
+
+.logo_box {
+    height: auto;
+}
+
+#upload_img {
+    display: none;
+}
+
+#upload_logo {
+    display: none;
+}
+
+.img_label {
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    color: #e5861b;
+    display: block;
+}
+
+.contact_box {
+    float: left;
+    margin-left: 2px;
+    position: relative;
+}
+
+.contact_box span {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    color: #e5861b;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1111;
+}
+
+.contact_inp {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.phone_box input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    text-indent: 37px;
+    border-radius: 4px;
+}
+
+.phone_box {
+    width: 270px;
+    margin-left: 11px;
+    background: white;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+}
+
+.phone-span {
+    transform: rotate(90deg);
+}
+
+.select {
+    border: none;
+}
+
+.select select {
+    height: 30px;
+}
+
+.textarea_box textarea {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.add_btn {
+    width: 170px;
+    height: 50px;
+    background: #e5861b;
+    border: solid 1px #e5861b;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.icon {
+    transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 1024px) {
+    .add-page {
+        width: 950px;
+    }
+
+    .add_content {
+        width: 950px;
+    }
+
+    .input_box {
+        width: 76%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .add-page {
+        width: 710px;
+    }
+
+    .add_content {
+        width: 710px;
+    }
+
+    .input_box {
+        width: 68%;
+        margin-left: 0;
+    }
+
+    .phone_box {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .add-page {
+        width: 750px;
+    }
+
+    .add_content {
+        width: 750px;
+    }
+
+    .input_box {
+        width: 68%;
+        margin-left: 0;
+    }
+
+    .phone_box {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .add-page {
+        width: 710px;
+    }
+
+    .add_content {
+        width: 710px;
+    }
+
+    .input_box {
+        width: 68%;
+        margin-left: 0;
+    }
+
+    .phone_box {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .add-page {
+        width: 610px;
+    }
+
+    .add_content {
+        width: 610px;
+    }
+
+    .input_box {
+        width: 97%;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .phone_box {
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 0;
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .add-page {
+        width: 610px;
+    }
+
+    .add_content {
+        width: 610px;
+    }
+
+    .input_box {
+        width: 97%;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .phone_box {
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 0;
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .add-page {
+        width: 330px;
+    }
+
+    .add_content {
+        width: 330px;
+    }
+
+    .input_box {
+        width: 97%;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .phone_box {
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .add-page {
+        width: 330px;
+    }
+
+    .add_content {
+        width: 330px;
+    }
+
+    .input_box {
+        width: 97%;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .phone_box {
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .add-page {
+        width: 330px;
+    }
+
+    .add_content {
+        width: 330px;
+    }
+
+    .input_box {
+        width: 97%;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .phone_box {
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 0;
+    }
+}

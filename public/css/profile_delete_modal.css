@@ -1,0 +1,51 @@
+.mec {
+    width: 99%;
+    height: 100%;
+    background: #111111a1;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-delete-modal {
+    width: 400px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -100%;
+    z-index: 111111;
+    transition: 0.5s;
+}
+
+.profile-delete-content p {
+    color: black;
+    padding: 17px;
+}
+
+.profile-delete-button-box {
+    width: 100%;
+    height: auto;
+}
+
+.profile-delete {
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.ss {
+    width: 30px;
+    height: 3px;
+    top: 5px;
+    position: absolute;
+    background: #ff9900;
+}
+
+.a2 {
+    top: 15px;
+}
+
+.a3 {
+    top: 25px;
+}
+
+.div {
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    position: relative;
+}
+
+.mec {
+    width: 110px;
+    height: 110px;
+    border: solid;
+}
